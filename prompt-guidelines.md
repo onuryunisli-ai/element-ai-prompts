@@ -1,67 +1,118 @@
-# Nano Banana Pro 2 — Prompt Writing Guidelines
+# Nano Banana Pro 2 — Social Media Post Prompt Guidelines
 
-## General Rules
-- Always write in English
-- Place product prominently in center
+## How Nano Banana Pro 2 Works
+Nano Banana Pro 2 is a "Thinking" model — it understands intent, physics, 
+and composition. Do NOT use tag soups like "product, 4k, realistic". 
+Instead, write like you are briefing a professional photographer or creative director.
+Use full sentences with descriptive language.
+
+## Golden Prompt Structure
+Write prompts in this exact order (most important first):
+
+1. **Photography style** — what type of shot is this
+2. **Subject** — what is the product, how it looks
+3. **Action/placement** — where and how it is positioned
+4. **Composition** — framing, camera angle, depth of field
+5. **Lighting** — type, direction, intensity
+6. **Color palette** — dominant colors, mood tones
+7. **Background** — surface, environment, bokeh
+8. **Mood/atmosphere** — emotional feeling
+9. **Technical quality** — resolution, render quality
+
+## Critical Rules
 - NO text in the image
-- NO logo in the image
+- NO logo in the image  
 - NO watermarks
+- NO brand name written anywhere
+- Describe what you WANT, not what you don't want
+- Use positive framing: "empty clean surface" not "no clutter"
+- Always specify aspect ratio in composition
 
-## Prompt Structure
-[photography style], [subject/product], [composition], [lighting], [color palette], [mood/atmosphere], [camera details]
-
-## Example Prompts
-
-### Food & Snack Product:
-"Professional food photography, [product] centered on rustic wooden surface, soft natural window lighting from left, warm golden and brown tones, shallow depth of field with bokeh background, appetizing fresh mood, shot with 85mm macro lens, high detail"
-
-### Beverage Product:
-"Commercial beverage photography, [product] with condensation drops on glass, dark moody studio background, dramatic rim lighting from behind, rich deep jewel colors, luxury premium feel, high contrast, professional studio setup, 4K quality"
-
-### Confectionery & Sweets:
-"Elegant confectionery photography, [product] arranged on marble surface with scattered ingredients, soft diffused overhead lighting, pastel and warm tones, dreamy soft focus background, indulgent and premium mood, styled food photography"
-
-### Clothing & Fashion:
-"Fashion editorial photography, [product] flat lay on minimalist clean surface, perfectly overhead shot, pure white background, soft even diffused lighting, professional fashion styling, magazine editorial quality"
-
-### Cosmetics & Beauty:
-"Beauty product photography, [product] on reflective glass surface, clean white studio background, soft side lighting with subtle shadows, fresh minimal aesthetic, premium luxury mood, sharp product focus"
-
-## Composition by Format
+## Format-Specific Composition Rules
 
 ### 1:1 Square Post (1080x1080):
-- Product centered symmetrically
-- Equal negative space on all sides
-- Strong central focal point
+"square format composition, product centered symmetrically, 
+equal negative space on all four sides, strong central focal point"
 
 ### 4:5 Portrait Post (1080x1350):
-- Product in upper two-thirds
-- Empty breathing space at bottom for caption overlay
-- Slight upward composition
+"4:5 vertical portrait composition, product positioned in upper two-thirds, 
+generous breathing space at bottom, slight upward framing"
 
 ### 9:16 Story/Reels (1080x1920):
-- Product centered vertically
-- Empty space at top and bottom for text overlay
-- Vertical flow composition
+"9:16 vertical story format composition, product centered in middle third, 
+empty space at top and bottom for text overlay, vertical flow"
+
+## Lighting Styles by Brand Tone
+- **Professional**: "soft even studio lighting, clean shadows, 
+  commercial product photography style"
+- **Luxury/Premium**: "dramatic moody lighting, deep shadows, 
+  single key light, high contrast, cinematic"
+- **Playful/Young**: "bright cheerful natural lighting, vibrant colors, 
+  high key, energetic atmosphere"
+- **Warm/Friendly**: "warm golden hour lighting, soft natural window light, 
+  cozy inviting atmosphere"
+- **Minimal**: "soft diffused overhead lighting, minimal shadows, 
+  clean bright aesthetic"
+
+## Product Category Examples
+
+### Food & Snack (e.g. wafer, chocolate, candy):
+"Professional food photography, [PRODUCT] with visible texture and filling 
+centered on [SURFACE], [ANGLE] shot, [LIGHTING], 
+[COLOR TONES] color palette, shallow depth of field with soft bokeh background, 
+[MOOD] atmosphere, photorealistic, high detail, 
+[FORMAT] composition"
+
+### Beverage (juice, water, drink):
+"Commercial beverage photography, [PRODUCT] with condensation drops 
+on [SURFACE], [LIGHTING] from [DIRECTION], 
+[COLOR] color palette, sharp product focus with blurred background, 
+[MOOD] premium feel, studio quality, [FORMAT] composition"
+
+### Packaged Food/Grocery:
+"Professional commercial product photography, [PRODUCT] packaging 
+displayed on [SURFACE] with [PROPS], [LIGHTING], 
+[COLOR] tones matching brand identity, clean professional styling, 
+appetizing presentation, [FORMAT] composition"
 
 ## Color Usage Rules
-- Use brand colors in background and accent elements
-- Never change the product own colors
-- Create contrast while maintaining harmony
-- Complementary colors for background
-- Brand primary color as dominant background tone
+- Use brand primary color as background accent or prop color
+- Never alter the actual product colors
+- Complementary colors create visual harmony
+- Warm tones for food/snack products
+- Cool tones for tech/beverage products
+- Earth tones for natural/organic products
 
-## Lighting Styles
-- **Natural**: Soft, warm, lifestyle feel
-- **Studio**: Clean, professional, commercial
-- **Dramatic**: High contrast, luxury, premium
-- **Moody**: Dark background, atmospheric
-- **Bright**: High key, fresh, energetic
+## Quality Boosters (always add at end)
+"photorealistic, professional commercial photography, 
+high resolution, sharp focus on product, 4K quality"
 
-## Mood Keywords by Brand Tone
-- **Professional**: clean, sophisticated, corporate, trustworthy
-- **Playful**: vibrant, fun, colorful, energetic, youthful
-- **Luxury**: opulent, rich, exclusive, premium, elegant
-- **Inspiring**: uplifting, dynamic, powerful, motivational
-- **Minimal**: simple, clean, whitespace, pure, uncluttered
-- **Friendly**: warm, inviting, approachable, cozy, homey
+## Example Full Prompts
+
+### Wafer/Cookie Product, 1:1, Warm tone:
+"Professional food photography, golden wafer cookies with visible cream filling 
+layers centered on dark walnut wooden surface, slight overhead angle shot, 
+soft warm natural side lighting from left creating gentle shadows, 
+warm golden and rich brown color palette with deep red accents, 
+shallow depth of field with smooth bokeh background, 
+indulgent premium appetizing mood, square 1:1 composition, 
+photorealistic, high resolution, sharp product focus"
+
+### Packaged Snack, 4:5, Family/Friendly tone:
+"Commercial product photography, colorful snack packaging prominently displayed 
+on clean light marble surface with scattered product ingredients around it, 
+4:5 vertical portrait composition with product in upper frame, 
+soft diffused overhead studio lighting, 
+warm inviting color palette matching packaging colors, 
+clean white and warm neutral background tones, 
+cheerful friendly family mood, generous space at bottom, 
+photorealistic commercial quality, high detail"
+
+### Beverage/Drink, 9:16, Premium tone:
+"Premium beverage photography, sleek bottle centered on reflective dark surface, 
+9:16 vertical story format with product in center third, 
+dramatic single key lighting from behind creating rim light effect, 
+deep rich jewel tone color palette with brand color accents, 
+dark moody premium background with subtle bokeh, 
+luxury exclusive atmosphere, space at top and bottom for overlay, 
+photorealistic, professional studio quality"
