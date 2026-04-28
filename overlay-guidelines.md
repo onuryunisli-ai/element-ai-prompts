@@ -1,81 +1,127 @@
-# Instagram Post Overlay Guidelines
-# Logo & Slogan Placement Rules
+# Instagram Overlay Guidelines — Ratio Based
+# Logo & Slogan Placement Rules (All measurements as ratios of image dimensions)
 
-## Core Principles
-- Logo must always be visible but never distracting
-- Light logo on dark background, dark/color logo on light background
-- Logo maximum 10% of image width
-- Never place logo or text over faces or key product elements
-- Maintain 60px minimum buffer from all edges
-- Use PNG format with transparent background for logos
+## WHY RATIOS NOT PIXELS
+All measurements are expressed as ratios (0.0–1.0) of the image width (W) or height (H).
+This ensures correct proportions regardless of output resolution.
+Example: marginTop = 0.059 × H means 5.9% from top edge.
 
-## Safe Zone Rules by Format
+---
 
-### 1:1 Square Post (1080x1080px)
-- Safe area: central 960x960px (60px buffer all sides)
-- No Instagram UI overlays on feed posts
-- LOGO: Top-right corner, 60px from edges, width 160-180px
-- SLOGAN: Bottom center, 80px from bottom edge
-- Font size: 48-52px bold
-- Text max width: 80% of image width
+## FORMAT 1: Square Post 1:1
 
-### 4:5 Portrait Post (1080x1350px)
-- Safe area: central 960x1230px (60px buffer all sides)
-- No Instagram UI overlays on feed posts
-- LOGO: Top-right corner, 60px from edges, width 180-200px
-- SLOGAN: Bottom center, 100px from bottom edge
-- Font size: 52-56px bold
-- Text max width: 80% of image width
+Canvas: 1080×1080 (W=H)
+Instagram UI: NONE — feed posts have no UI overlays
 
-### 9:16 Story/Reels (1080x1920px)
-- Top unsafe zone: 250px (username, time, icons)
-- Bottom unsafe zone: 320px (buttons, captions, swipe up)
-- Left unsafe zone: 60px
-- Right unsafe zone: 120px
-- LOGO: Top center OR top-right, minimum 270px from top edge
-- SLOGAN: Bottom center, minimum 340px from bottom edge
-- Font size: 56-64px bold
-- Text max width: 70% of image width
-- Keep all critical elements in central 70-80% of frame
+### SLOGAN
+- Position: top-left OR top-right (alternate randomly for variety)
+- Distance from top: 0.074 × H
+- Distance from side: 0.055 × W
+- Font size: 0.105 × W
+- Line spacing: 1.15 × font_size
+- Max line width: 0.45 × W (so text does not cross center)
+- Color: brand primary color
+- Style: bold, with shadow (3px offset, 50% opacity black)
 
-## Logo Selection Rules
-- Dark background (#000, deep colors) → Use WHITE logo
-- Light background (#fff, pastels, beige) → Use COLOR logo
-- Medium/uncertain background → Use WHITE logo with subtle shadow
-- Logo opacity: 85-100% for promotional posts
+### LOGO
+- Position: OPPOSITE corner from slogan (bottom)
+- If slogan top-left → logo bottom-right
+- If slogan top-right → logo bottom-left
+- Distance from bottom: 0.065 × H
+- Distance from side: 0.055 × W
+- Logo width: 0.24 × W
 
-## Text & Slogan Rules
-- Font: Use brand font specified by user
-- Color: White (#ffffff) with subtle dark shadow for readability
-- Shadow: 2px offset, 4px blur, 40% black opacity
-- Maximum 6 words for slogan
-- Always test contrast ratio above 4.5:1
-- Never place text over faces or key visual elements
-- Avoid edges — always stay in safe zone
+### SAFE ZONE
+- All elements must stay inside: 0.056×W margin from all edges
+- Never place over faces or product
 
-## Logo Size Guidelines
-- 1:1 Post: logo width = 15-17% of canvas (160-180px)
-- 4:5 Post: logo width = 17-19% of canvas (180-200px)
-- 9:16 Story: logo width = 18-20% of canvas (190-220px)
+---
 
-## Placement Coordinates (based on 1080px width)
+## FORMAT 2: Portrait Post 4:5
 
-### 1:1 Square (1080x1080):
-- Logo: gravity=north_east, x=60, y=60, width=170
-- Slogan: gravity=south, x=0, y=80, size=50px
+Canvas: 1080×1350 (W < H)
+Instagram UI: NONE — feed posts have no UI overlays
+NOTE: Profile grid crops to 1:1 center — keep critical elements in center 74% of height
 
-### 4:5 Portrait (1080x1350):
-- Logo: gravity=north_east, x=60, y=60, width=190
-- Slogan: gravity=south, x=0, y=100, size=54px
+### SLOGAN
+- Position: top-left OR top-right (alternate randomly)
+- Distance from top: 0.059 × H
+- Distance from side: 0.055 × W
+- Font size: 0.105 × W
+- Line spacing: 1.15 × font_size
+- Max line width: 0.45 × W
+- Color: brand primary color
+- Style: bold, with shadow (3px offset, 50% opacity black)
 
-### 9:16 Story (1080x1920):
-- Logo: gravity=north, x=0, y=280, width=210
-- Slogan: gravity=south, x=0, y=340, size=60px
+### LOGO
+- Position: OPPOSITE corner from slogan (bottom)
+- If slogan top-left → logo bottom-left (same side — matches nümunə şəkil)
+- Distance from bottom: 0.052 × H
+- Distance from side: 0.055 × W
+- Logo width: 0.25 × W
 
-## Professional Standards
-- Consistent placement across ALL posts builds brand recognition
-- Studies show 89% logo recall when placed top-left or top-right
-- Bottom-right is also widely accepted for watermark style
-- Never stretch or distort logo
-- Maintain same position across all content for brand consistency
-- Semi-transparent overlay behind text if background is complex
+### SAFE ZONE
+- All elements inside: 0.056×W from left/right, 0.044×H from top/bottom
+- Grid crop safe area: central 0.74 of height — keep main content here
+
+---
+
+## FORMAT 3: Story/Reels 9:16
+
+Canvas: 1080×1920 (H >> W)
+Instagram UI overlays:
+- TOP: 0.130 × H (profile name, progress bar, close button)
+- BOTTOM: 0.167 × H (send message bar, reaction buttons)
+- RIGHT: 0.111 × W (like, comment, share buttons)
+
+### SLOGAN
+- Position: TOP CENTER (centered horizontally)
+- Distance from top: 0.160 × H (safely below UI)
+- Horizontal: centered (x=0 from center)
+- Font size: 0.105 × W
+- Line spacing: 1.15 × font_size
+- Max line width: 0.75 × W
+- Color: brand primary color
+- Style: bold, with shadow
+
+### LOGO
+- Position: BOTTOM CENTER (centered horizontally)
+- Distance from bottom: 0.190 × H (safely above UI)
+- Horizontal: centered (x=0 from center)
+- Logo width: 0.24 × W
+
+### SAFE ZONE
+- Top buffer: 0.130 × H minimum
+- Bottom buffer: 0.167 × H minimum  
+- Right buffer: 0.111 × W minimum
+- Left buffer: 0.056 × W minimum
+- All critical content in central 70–80% of frame
+
+---
+
+## LOGO SELECTION RULE
+- Dark background (luminance < 0.3) → use WHITE logo
+- Light background (luminance > 0.7) → use COLOR logo
+- Unknown/mixed → use WHITE logo with shadow
+
+## FONT SIZE RULE
+- Base font size = 0.105 × image_width
+- Minimum font size = 0.085 × image_width (never smaller)
+- Maximum font size = 0.120 × image_width (never larger)
+
+## SLOGAN SPLIT RULE
+- Always split slogan into 2 lines at the middle word
+- Each line max 0.45 × W for feed posts
+- Each line max 0.75 × W for story format
+
+## SHADOW RULE
+- Always add text shadow for readability
+- Shadow offset: 3px (or 0.003 × W)
+- Shadow opacity: 50%
+- Shadow color: black
+
+## CONSISTENCY RULE
+- Same logo position across all posts of same brand
+- Slogan position can alternate left/right for variety
+- Never place logo or slogan over human faces
+- Never place over the hero product
